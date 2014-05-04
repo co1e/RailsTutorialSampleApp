@@ -1,5 +1,5 @@
-# SQLite version 3.x
-#   gem install sqlite3
+# PostgreSQL
+#   gem install pg
 #
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
@@ -15,7 +15,7 @@ test:
   adapter: postgresql
   database: sample_app_test
   host: localhost
-	  
+
 production:
   adapter: postgresql
   database: sample_app
